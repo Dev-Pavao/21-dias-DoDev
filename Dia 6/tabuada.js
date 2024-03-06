@@ -1,12 +1,12 @@
 
 
-let num1 = parseInt(prompt("Deseja a tabuada de qual número? "))
+let num1 = Math.abs(parseInt(prompt("Deseja a tabuada de qual número? ")))
 
-for(let tabuada = 0; tabuada <=10; tabuada++){
-    let num2 = num1 + 1 
-    let num3 = num2 + 1
-    console.log(num1 + " X " + tabuada + "=" + num1 * tabuada, "| " + 
-    num2 + " X " + tabuada + "=" + num2 * tabuada, "| " +
-    num3 + " X " + tabuada + "=" + num3 * tabuada)
-  }
+for(let tabuada = num1; tabuada <= num1 + 2; tabuada++){
+  console.log("Tabuada do número " + tabuada)
+for (let multiplicador = 0; multiplicador <=10; multiplicador ++){
+  console.log(tabuada + " X " + multiplicador + " = " + (tabuada * multiplicador))
+}
+}
+    
 
