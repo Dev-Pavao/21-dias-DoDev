@@ -12,11 +12,11 @@ if(idade >= 18){
     console.log("Já que voce tem " + idade + " Está liberado para tomar umas geladas")
 } else{
     console.log("Sem gelada para você")
-}
+} 
 
-console.log("Você tem " + idade * 12 + " meses de vida, já em semanas são" + idade * 48 
-+ " e por fim você tem "  + idade * 365 + " dias de vida")
-
+console.log("Sua idade em meses é " + idade * 12)
+console.log("Sua idade em semanas é " + idade * 52)
+console.log("Sua idade em dias é " + idade * 365)
 let imc = peso / (altura * altura)
 
 if(imc < 18,5 ){
@@ -44,3 +44,6 @@ if(parar == "continuar"){
     continuar = false
 }
 } while (continuar);
+
+
+ 
