@@ -34,7 +34,7 @@ class Corrida{
     }
     DefinirVencedor(){
      let menorTempo = this.Participantes[0].calculo(this.Distancia2)
-     let vencedor = this.Vencedor[0]
+     let vencedor = this.Participantes[0]
      for(let index = 1; index < this.Participantes.length; index++){
         let tempo = this.Participantes[index].calculo(this.Distancia2)
         if(tempo < menorTempo){
